@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#9AD2FD"
+    android:padding="50dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="285dp"
+        android:src="@drawable/combustivel2" />
+
+    <TextView
+        android:id="@+id/etx_gastoTotal"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Seu gasto total em combustível será de:"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/txt_resultado"/>
+
+</LinearLayout>
